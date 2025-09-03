@@ -1,12 +1,55 @@
-# React + Vite
+# 📚 Book Finder App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based Book Finder application that allows users to search books from the **OpenLibrary API**, explore trending books, and save favorites with bookmarks.  
+The app features **dark mode**, **pagination**, **book detail modals**, and **localStorage persistence** for bookmarks.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔍 **Search Books**
+  - By **Title**
+  - By **Author**
+  - By **Year**
+  - Combined search (**Title + Author + Year**)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 📈 **Trending Books**
+  - Daily, Weekly, and Monthly trending tabs
+
+- ⭐ **Bookmarks**
+  - Save or remove books with a star icon
+  - Stored in **localStorage**
+  - Collapsible **Bookmarks Section**
+
+- 🎨 **UI/UX**
+  - **Dark Mode** toggle (Light 🌞 / Dark 🌙)
+  - Responsive and clean design with Tailwind CSS
+  - Hover effects, animations, and clean card layout
+
+- 📖 **Book Details Modal**
+  - Large cover image
+  - Title, Author(s), Year, Languages
+  - Link to OpenLibrary page
+  - Closes with **Escape key**
+
+- 📄 **Pagination**
+  - 10 results per page
+  - Next/Previous navigation
+
+- ⚡ **Notifications**
+  - Invalid inputs and errors handled with **react-toastify**
+
+---
+
+## 🛠️ Tech Stack
+
+- **React** (Vite or CRA setup)
+- **Tailwind CSS** for styling
+- **react-toastify** for notifications
+- **react-icons** for icons
+- **OpenLibrary API** for data
+
+---
+
+## 📂 Project Structure
+
